@@ -79,7 +79,7 @@ export default function Home() {
                 <Phone className="w-4 h-4" />
                 <span className="font-medium">0208 064 3800</span>
               </a>
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold rounded-full shadow-lg hover:shadow-xl transition-all">
                 Get Started
               </Button>
             </div>
@@ -104,10 +104,10 @@ export default function Home() {
                 experienced tutors overseen by qualified teachers. Transforming lives through trusted, nurturing special needs tuition.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold text-lg px-8 py-6">
-                  Book a Consultation
-                </Button>
-                <Button size="lg" variant="outline" className="font-display font-semibold text-lg px-8 py-6 border-2">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all">
+                Book a Consultation
+              </Button>
+                <Button size="lg" variant="outline" className="font-display font-semibold text-lg px-8 py-6 border-2 rounded-full hover:bg-secondary transition-all">
                   Call 0208 064 3800
                 </Button>
               </div>
@@ -312,10 +312,10 @@ export default function Home() {
               match them with the perfect tutor.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="font-display font-semibold text-lg px-8 py-6">
+              <Button size="lg" variant="secondary" className="font-display font-semibold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all">
                 Book Free Consultation
               </Button>
-              <Button size="lg" variant="outline" className="font-display font-semibold text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button size="lg" variant="outline" className="font-display font-semibold text-lg px-8 py-6 border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary rounded-full transition-all">
                 <Phone className="w-5 h-5 mr-2" />
                 Call 0208 064 3800
               </Button>

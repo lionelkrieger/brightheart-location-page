@@ -55,9 +55,9 @@
 
 :root {
   /* Bright Heart Brand Colors */
-  --primary: oklch(0.58 0.26 340); /* Vibrant magenta pink #FF0066 */
+  --primary: oklch(0.58 0.26 343); /* Vibrant magenta pink #ff005e */
   --primary-foreground: oklch(1 0 0); /* White */
-  --sidebar-primary: oklch(0.58 0.26 340);
+  --sidebar-primary: oklch(0.58 0.26 343);
   --sidebar-primary-foreground: oklch(1 0 0);
   --chart-1: oklch(0.75 0.15 340);
   --chart-2: oklch(0.65 0.20 340);
@@ -81,13 +81,13 @@
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(0.92 0.01 340);
   --input: oklch(0.92 0.01 340);
-  --ring: oklch(0.58 0.26 340);
+  --ring: oklch(0.58 0.26 343);
   --sidebar: oklch(1 0 0);
   --sidebar-foreground: oklch(0.25 0.01 280);
   --sidebar-accent: oklch(0.98 0.01 340);
   --sidebar-accent-foreground: oklch(0.25 0.01 280);
   --sidebar-border: oklch(0.92 0.01 340);
-  --sidebar-ring: oklch(0.58 0.26 340);
+  --sidebar-ring: oklch(0.58 0.26 343);
 }
 
 @layer base {

@@ -68,13 +68,11 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <Heart className="w-6 h-6 text-primary-foreground" fill="currentColor" />
-              </div>
-              <div>
-                <div className="font-display font-bold text-xl text-foreground">Bright Heart</div>
-                <div className="text-xs text-muted-foreground">Education</div>
-              </div>
+              <img 
+                src="https://www.brightheart.co.uk/wp-content/uploads/2024/11/Bright-Heart-Education-Logo-1.png.webp" 
+                alt="Bright Heart Education Logo" 
+                className="h-14 w-auto"
+              />
             </div>
             <div className="flex items-center gap-4">
               <a href="tel:02080643800" className="hidden md:flex items-center gap-2 text-foreground hover:text-primary transition-colors">
@@ -334,11 +332,12 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-primary-foreground" fill="currentColor" />
-                </div>
-                <div className="font-display font-bold text-lg">Bright Heart</div>
+              <div className="mb-4">
+                <img 
+                  src="https://www.brightheart.co.uk/wp-content/uploads/2024/11/Bright-Heart-Education-Logo-1.png.webp" 
+                  alt="Bright Heart Education Logo" 
+                  className="h-12 w-auto brightness-0 invert"
+                />
               </div>
               <p className="text-sm text-background/70">
                 Award-winning SEN tutoring across the UK
